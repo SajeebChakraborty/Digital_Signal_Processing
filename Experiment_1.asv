@@ -1,0 +1,25 @@
+N=input('Enter the input N ');
+x=input('Enter the length of x ');
+
+x=ones(1,N);
+n=0:1:N-1;
+subplot(3,2,1);
+stem(n,x);
+xlabel('n');
+ylabel('x(n)');
+title('Unit Step Sequence');
+
+x2=0.8.^(n);
+subplot(3,2,2);
+stem(n,x2);
+xlabel('n');
+ylabel('x(n)');
+title('Exponential Sequence');
+
+
+t=1:1:x;
+subplot(3,2,3);
+stem(t,t);
+xlabel('n');
+ylabel('x(n)');
+title('Unit Ramp Sequence');

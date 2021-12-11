@@ -1,0 +1,5 @@
+a=input('Enter the amplitude');
+f=input('Enter the frequency');
+fs=input('Enter the sampling frequency');
+
+y=a*sin(2*pi*f*t)
